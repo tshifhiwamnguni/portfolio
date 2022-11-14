@@ -1,12 +1,12 @@
 import React from "react";
 
-
+import {FaHome} from 'react-icons/fa'
 
 function Footer(){
     return(
-        <h1>
-         Footer
-        </h1>
+       <div>
+            <a href="#"><FaHome/> </a>
+       </div>
     )
 }
 
