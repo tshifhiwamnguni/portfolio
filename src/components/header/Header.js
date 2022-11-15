@@ -1,20 +1,29 @@
 import React from "react";
 import cv from './../../assets/cv.pdf'
+import classes from './Header.module.css'
+import HeaderSocials from './HeaderSocials'
+import MyImage from './../../assets/me.png'
+
 
 function Header(){
     return(
         <header>
-            <div className="container header__container">
+            <div className={`${classes.container} ${classes.header_container}`}>
                 <h5>hello I'm</h5>
                 <h1>Brandon Mnguni</h1>
             
-                <h5 className="text-light">Fullstack developer</h5> 
-                   <br/>
+                <h5 className='text_light'>Fullstack developer</h5> 
+                 
                 <Buttons/>
-                <div className="me">
-                    <img ></img>
-                </div>
+                <br/>
+                <HeaderSocials/>
+                <div className={classes.me}>
+                    <img src={MyImage} alt='me'></img>
+                </div>  
+                <a href='#contact' className={classes.scroll_down} > scroll down</a>
             </div>
+          
+
 
         </header>
     )
@@ -23,9 +32,9 @@ function Header(){
 
 function Buttons(){
     return(
-        <div className="cta">
-         <a href={cv} download className="btnx"> download</a>
-         <a href="#contacts" className="btnx btn-primaryx"> contact me</a>
+        <div className={classes.cta}>
+         <a href={cv} download className='btnx'> download</a>
+         <a href="#contacts" className='btnx btn_primaryx'> contact me</a>
         </div>
     )
 }
