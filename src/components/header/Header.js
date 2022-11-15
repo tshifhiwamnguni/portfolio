@@ -1,8 +1,9 @@
 import React from "react";
 import cv from './../../assets/cv.pdf'
-import me from './../../assets/me.png'
-import HeaderSocials from './../header/headerSocials'
 import classes from './Header.module.css'
+import HeaderSocials from './HeaderSocials'
+import MyImage from './../../assets/me.png'
+
 
 function Header(){
     return(
@@ -17,10 +18,12 @@ function Header(){
                 <br/>
                 <HeaderSocials/>
                 <div className={classes.me}>
-                    <img src={me} alt="me" ></img>
-                </div>
-                 <a href="#contact" className={classes.scroll_down} >scroll down</a>
+                    <img src={MyImage} alt='me'></img>
+                </div>  
+                <a href='#contact' className={classes.scroll_down} > scroll down</a>
             </div>
+          
+
 
         </header>
     )
@@ -30,8 +33,8 @@ function Header(){
 function Buttons(){
     return(
         <div className={classes.cta}>
-         <a href={cv} download className="btnx"> download</a>
-         <a href="#contacts" className="btnx btn-primaryx"> contact me</a>
+         <a href={cv} download className='btnx'> download</a>
+         <a href="#contacts" className='btnx btn_primaryx'> contact me</a>
         </div>
     )
 }
