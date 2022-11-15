@@ -4,9 +4,9 @@ import React from "react";
 
 function Footer(){
     return(
-        <h1>
-         Footer
-        </h1>
+      <section>
+            <footer> footer 101</footer>
+    </section>
     )
 }
 
