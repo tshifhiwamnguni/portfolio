@@ -19,42 +19,42 @@ function Experience(){
                             <h4 >HTML</h4>
                          
                             </div> 
-                              <small className='text-light'>Experienced</small>
+                              <small className='text-light'>Intermediate</small>
                         </article>
                         <article>
                         <div className={classes.experience_details}>
                             <BsPatchCheckFill className={classes.experience_icon}/>
                             <h4 >angular</h4>
                             </div>
-                            <small className='text-light'>Experienced</small>
+                            <small className='text-light'>Beginner</small>
                         </article>
                         <article>
                         <div className={classes.experience_details}>
                             <BsPatchCheckFill className={classes.experience_icon}/>
                             <h4 >React</h4>
                             </div>
-                            <small className='text-light'>Experienced</small>
+                            <small className='text-light'>Beginner</small>
                         </article>
                         <article>
                         <div className={classes.experience_details}>
                             <BsPatchCheckFill className={classes.experience_icon}/>
                             <h4 >CSS</h4>
                             </div>
-                            <small className='text-light'>Experienced</small>
+                            <small className='text-light'>Beginner</small>
                         </article>
                         <article>
                         <div className={classes.experience_details}>
                             <BsPatchCheckFill className={classes.experience_icon}/>
                             <h4 >javascript</h4>
                             </div>
-                            <small className='text-light'>Experienced</small>
+                            <small className='text-light'>Beginner</small>
                         </article>
                         <article>
                         <div className={classes.experience_details}>
                             <BsPatchCheckFill className={classes.experience_icon}/>
                             <h4 >Typescript</h4>
                             </div>
-                            <small className='text-light'>Experienced</small>
+                            <small className='text-light'>Beginner</small>
                         </article>
 
                     </div>
@@ -68,42 +68,42 @@ function Experience(){
                             <BsPatchCheckFill className={classes.experience_icon}/>
                             <h4 >PHP</h4>
                             </div>
-                            <small className='text-light'>Experienced</small>
+                            <small className='text-light'>Beginner</small>
                         </article>
                         <article>
                         <div className={classes.experience_details}>
                             <BsPatchCheckFill className={classes.experience_icon}/>
                             <h4 >NODE.js</h4>
                             </div>
-                            <small className='text-light'>Experienced</small>
+                            <small className='text-light'>Beginner</small>
                         </article>
                         <article>
                         <div className={classes.experience_details}>
                             <BsPatchCheckFill className={classes.experience_icon}/>
                             <h4 >MYSQL</h4>
                             </div>
-                            <small className='text-light'>Experienced</small>
+                            <small className='text-light'>Beginner</small>
                         </article>
                         <article>
                         <div className={classes.experience_details}>
                             <BsPatchCheckFill className={classes.experience_icon}/>
                             <h4 >javascript</h4>
                             </div>
-                            <small className='text-light'>Experienced</small>
+                            <small className='text-light'>Beginner</small>
                         </article>
                         <article>
                         <div className={classes.experience_details}>
                             <BsPatchCheckFill className={classes.experience_icon}/>
                             <h4 >MongoDB</h4>
                             </div>
-                            <small className='text-light'>Experienced</small>
+                            <small className='text-light'>Beginner</small>
                         </article>
                         <article>
                         <div className={classes.experience_details}>
                             <BsPatchCheckFill className={classes.experience_icon}/>
                             <h4 >Postman</h4>
                             </div>
-                            <small className='text-light'>Experienced</small>
+                            <small className='text-light'>Beginner</small>
                         </article>
 
                     </div>

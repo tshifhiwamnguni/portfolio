@@ -9,9 +9,9 @@ import classes from './Header.module.css'
 function HeaderSocials(){
     return(
         <div className={classes.header_socials}>
-            <a href='https://linkedin.com' target={'_blank'}> <BsLinkedin/></a>
-            <a href='https://github.com'  target={'_blank'}> <FaGithub/></a>
-            <a href='https://instgram.com'  target={'_blank'}> <FaGithub/></a>
+            <a href='https://linkedin.com' target={'_blank'} rel="noReferrer"> <BsLinkedin/></a>
+            <a href='https://github.com'  target={'_blank'} rel="noReferrer"> <FaGithub/></a>
+            <a href='https://instgram.com'  target={'_blank'} rel="noReferrer"> <FaGithub/></a>
 
         </div>
     )

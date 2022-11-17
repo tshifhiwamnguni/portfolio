@@ -1,7 +1,7 @@
 import React from "react";
 import cv from './../../assets/cv.pdf'
 import classes from './Header.module.css'
-import HeaderSocials from './HeaderSocials'
+import HeaderSocials from './headerSocials'
 import MyImage from './../../assets/me.png'
 
 
@@ -10,9 +10,9 @@ function Header(){
         <header>
             <div className={`${classes.container} ${classes.header__container}`}>
                 <h5>Hello I'm</h5>
-                <h1>Brandon Mnguni</h1>
+                <h1>Tshifhiwa Brandon Mnguni</h1>
             
-                <h5 className={classes.text_light}>Fullstack developer</h5> 
+                <h5 className='text_light'>Fullstack developer</h5> 
                    <br/>
                 <Buttons/>
                 <br/>

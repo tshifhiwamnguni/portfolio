@@ -17,15 +17,23 @@ function Services() {
                     <ul className={classes.service_list}>
                         <li >
                             <BiCheck className={classes.service_list_icon}/>
-                            <p> figma</p>
+                            <p> Website design and building</p>
                      </li>
                      <li >
                             <BiCheck className={classes.service_list_icon}/>
-                            <p> figma</p>
+                            <p> Directing or performing Website updates.</p>
                      </li>
                      <li >
                             <BiCheck className={classes.service_list_icon}/>
-                            <p> figma</p>
+                            <p> Editing, writing, or designing Website content</p>
+                     </li>
+                     <li >
+                            <BiCheck className={classes.service_list_icon}/>
+                            <p>Maintaining an understanding of the latest Web applications and programming practices </p>
+                     </li>
+                     <li >
+                            <BiCheck className={classes.service_list_icon}/>
+                            <p> Determining user needs by analyzing technical requirements</p>
                      </li>
                     </ul>
            
@@ -37,15 +45,23 @@ function Services() {
                     <ul className={classes.service_list}>
                         <li >
                             <BiCheck className={classes.service_list_icon}/>
-                            <p> figma</p>
+                            <p> Research industry-related topics</p>
                      </li>
                      <li >
                             <BiCheck className={classes.service_list_icon}/>
-                            <p> figma</p>
+                            <p> Prepare well-structured drafts</p>
                      </li>
                      <li >
                             <BiCheck className={classes.service_list_icon}/>
-                            <p> figma</p>
+                            <p> Promote content on social networks and monitor engagement</p>
+                     </li>
+                     <li >
+                            <BiCheck className={classes.service_list_icon}/>
+                            <p> Coordinate with marketing and design teams to illustrate articles</p>
+                     </li>
+                     <li >
+                            <BiCheck className={classes.service_list_icon}/>
+                            <p> Update our websites as needed</p>
                      </li>
                     </ul>
             
@@ -57,15 +73,28 @@ function Services() {
                     <ul className={classes.service_list}>
                         <li >
                             <BiCheck className={classes.service_list_icon}/>
-                            <p> figma</p>
+                            <p> Gather and evaluate user requirements in collaboration with product managers and engineers</p>
                      </li>
                      <li >
                             <BiCheck className={classes.service_list_icon}/>
-                            <p> figma</p>
+                            <p> Illustrate design ideas using storyboards, process flows and sitemaps</p>
                      </li>
                      <li >
                             <BiCheck className={classes.service_list_icon}/>
-                            <p> figma</p>
+                            <p> Design graphic user interface elements, like menus, tabs and widgets</p>
+                     </li>
+                     <li >
+                            <BiCheck className={classes.service_list_icon}/>
+                            <p> Develop UI mockups and prototypes that clearly illustrate how sites function and look like</p>
+                     </li>
+                     <li >
+                            <BiCheck className={classes.service_list_icon}/>
+                            <p> Prepare and present rough drafts</p>
+                     </li>
+                     <li >
+                            <BiCheck className={classes.service_list_icon}/>
+                            <p> Adhere to style standards on fonts, colors and images
+	Identify and troubleshoot UX problems</p>
                      </li>
                     </ul>
                

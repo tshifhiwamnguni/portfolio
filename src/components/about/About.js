@@ -25,7 +25,7 @@ function About() {
               </div>
            
               <h5> experience</h5>
-              <small> 3+ years experience</small>
+              <small> 1 year 6 months experience</small>
             
             </article>
 
@@ -34,7 +34,7 @@ function About() {
               <FiUser className={classes.about_icon} />
               </div>
               <h5> Clients</h5>
-              <small> +200 clients</small>
+              <small> 4 clients</small>
             </article>
 
             <article className={classes.about_card}>
@@ -42,7 +42,7 @@ function About() {
               <VscFolderLibrary className={classes.about_icon} />
             </div>
               <h5> Projects</h5>
-              <small> 80 completed projects</small>
+              <small> 4 completed projects</small>
             </article>
             
           </div>

@@ -108,3 +108,7 @@ text-align: center;
       margin: 1.5rem 0;
     }
   }
+  .container{
+    width: var(--wd-lg);
+    margin: 0 auto;
+  }
