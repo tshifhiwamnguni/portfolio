@@ -12,7 +12,6 @@ function HeaderSocials(){
             <a href='https://linkedin.com' target={'_blank'} rel="noReferrer"> <BsLinkedin/></a>
             <a href='https://github.com'  target={'_blank'} rel="noReferrer"> <FaGithub/></a>
             <a href='https://instgram.com'  target={'_blank'} rel="noReferrer"> <FaGithub/></a>
-
         </div>
     )
 }
