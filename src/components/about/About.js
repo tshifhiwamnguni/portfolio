@@ -42,7 +42,7 @@ function About() {
               <VscFolderLibrary className={classes.about_icon} />
             </div>
               <h5> Projects</h5>
-              <small> 4 completed projects</small>
+              <small> 5 completed projects</small>
             </article>
             
           </div>
