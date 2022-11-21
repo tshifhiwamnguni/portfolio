@@ -11,7 +11,8 @@ function Portfolio() {
 
       <div className={`${classes.container} ${classes.portfolio_container}`}>
         {projectData.map((project) => (
-          <article className={classes.portfolio_item}>
+     
+          <article className={`${classes.portfolio_item} ${classes.grow}`}>
             <div className={classes.portfolio_item_image}>
               <img src={project.image} alt="d" />
             </div>
@@ -19,7 +20,7 @@ function Portfolio() {
             <h3> {project.description}</h3>
             <br />
             <div className={classes.portfolio_item_buttons}>
-              <a href={project.github} className="btnx" target={"_blank"}>
+              <a href={project.github} className="btnx" target={"_blank"} rel="noreferrer">
                 {" "}
                 github
               </a>
@@ -27,6 +28,7 @@ function Portfolio() {
                 href="https://9anime.to/"
                 className="btnx btn-primaryx"
                 target={"_blank"}
+                rel="noreferrer"
               >
                 {" "}
                 live demo

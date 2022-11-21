@@ -18,7 +18,7 @@ function Experience() {
           <div className={classes.experience_content}>
             {frontendData.map((skill) => (
               <article>
-                <div className={classes.experience_details}>
+                <div className={`${classes.grow} ${classes.experience_details}`}>
                   <BsPatchCheckFill className={classes.experience_icon} />
                   <h4>{skill.skill}</h4>
                 </div>

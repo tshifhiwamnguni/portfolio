@@ -27,14 +27,14 @@ function Contacts(){
               <MdOutlineEmail className={classes.contact_option_icon}/>
               <h4> Email</h4>
               <h5> tb01mngunbi@gmail.com</h5>
-              <a href="mailto:tb01mngunbi@gmail.com"> send a message</a>
+              <a href="mailto:tb01mngunbi@gmail.com" rel="noreferrer"> send a message</a>
             </article>
 
             <article className={classes.contact_option}>
               <MdOutlineEmail className={classes.contact_option_icon}/>
               <h4> Whatsapp</h4>
               <h5> 0786274306</h5>
-              <a href="https://api.whatsapp.com/send?phone=0786274306" target={'_blank'}> send a message</a>
+              <a href="https://api.whatsapp.com/send?phone=0786274306" target={'_blank'} rel="noreferrer"> send a message</a>
             </article>
           
 

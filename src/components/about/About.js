@@ -13,7 +13,7 @@ function About() {
       <div className={`${classes.container} ${classes.about_container}`}>
         <div className={classes.about_me}>
           <div className={classes.about_me_image}>
-            <img src={ME} alt="About image"/>
+            <img src={ME} alt="About"/>
           </div>
         </div>
 

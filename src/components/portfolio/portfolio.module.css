@@ -52,3 +52,11 @@
   width: var(--wd-lg);
   margin: 0 auto;
 }
+.grow {
+  transition: all 0.3s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.06);
+/* background-color: #151534; */
+}
