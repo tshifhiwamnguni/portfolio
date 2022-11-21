@@ -4,23 +4,26 @@
         "name": "Posh",
         "description":"message",
         "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
-        "github":""
+        "github":"https://github.com/tshifhiwamnguni/posh"
 
     },
     {
         "name": "Survello",
         "description":"message",
-        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg"
+        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
+        "github":"https://github.com/tshifhiwamnguni/noteProject"
     },
     {
         "name": "Noter",
         "description":"message",
-        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg"
+        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
+        "github":"https://github.com/tshifhiwamnguni/noteProject"
     },
     {
         "name": "Interxion",
         "description":"message",
-        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg"
+        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
+        "github":"https://github.com/tshifhiwamnguni/personalApp"
     },
     {
         "name": "Meets",

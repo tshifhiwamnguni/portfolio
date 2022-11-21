@@ -45,7 +45,7 @@ function About() {
               <small> 5 completed projects</small>
             </article>
             
-          </div>
+           </div>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
