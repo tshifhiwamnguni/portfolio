@@ -2,7 +2,7 @@ import React from "react";
 import cv from './../../assets/cv.pdf'
 import classes from './Header.module.css'
 import HeaderSocials from './HeaderSocials'
-import MyImage from './../../assets/me.png'
+import MyImage from '../../assets/MeImgRemovebg.png'
 
 
 function Header(){
@@ -30,7 +30,7 @@ function Header(){
 function Buttons(){
     return(
         <div className={classes.cta}>
-         <a href={cv} download="brandon" className='btnx'> download</a>
+         <a href={cv} download="Tshifhiwa Mnguni CV" className='btnx'> download</a>
          <a href="#contacts" className='btnx btn_primaryx'> contact me</a>
         </div>
     )

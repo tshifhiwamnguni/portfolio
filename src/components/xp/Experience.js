@@ -2,12 +2,12 @@ import React from "react";
 import classes from "./experience.module.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 import frontendSkills from "../../data/xpData/frontend.json";
-import backendSKills from '../../data/xpData/backend.json'
-import databaseSkills from '../../data/xpData/database.json'
+import backendSKills from "../../data/xpData/backend.json";
+import databaseSkills from "../../data/xpData/database.json";
 function Experience() {
   let frontendData = frontendSkills;
-  let backendData = backendSKills
-  let databaseData = databaseSkills
+  let backendData = backendSKills;
+  let databaseData = databaseSkills;
   return (
     <section id="experience">
       <h5>what skills do i have?</h5>
@@ -20,7 +20,6 @@ function Experience() {
               <article>
                 <div className={classes.experience_details}>
                   <BsPatchCheckFill className={classes.experience_icon} />
-
                   <h4>{skill.skill}</h4>
                 </div>
               </article>
@@ -31,13 +30,13 @@ function Experience() {
         <div className={classes.backend}>
           <h3> backend development</h3>
           <div className={classes.experience_content}>
-            {backendData.map((skill)=>(
-                 <article>
-              <div className={classes.experience_details}>
-                <BsPatchCheckFill className={classes.experience_icon} />
-                <h4>{skill.skill}</h4>
-              </div>
-            </article>
+            {backendData.map((skill) => (
+              <article>
+                <div className={classes.experience_details}>
+                  <BsPatchCheckFill className={classes.experience_icon} />
+                  <h4>{skill.skill}</h4>
+                </div>
+              </article>
             ))}
           </div>
         </div>
@@ -48,7 +47,7 @@ function Experience() {
             {databaseData.map((skill) => (
               <article>
                 <div className={classes.experience_details}>
-                  <BsPatchCheckFill className={classes.experience_icon}/>
+                  <BsPatchCheckFill className={classes.experience_icon} />
                   <h4>{skill.skill}</h4>
                 </div>
               </article>
