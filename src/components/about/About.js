@@ -5,6 +5,7 @@ import { FaAward } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import classes from './about.module.css'
+import AboutCard from "../sub_componants/about_card/AboutCard";
 function About() {
   return (
     <section id="about">
@@ -13,39 +14,27 @@ function About() {
       <div className={`${classes.container} ${classes.about_container}`}>
         <div className={classes.about_me}>
           <div className={classes.about_me_image}>
-            <img src={ME} alt="About"/>
+            <img src={ME} alt="About" />
           </div>
         </div>
 
         <div className={classes.about_content}>
           <div className={classes.about_cards} >
-            <article className={classes.about_card}>
-                <div className={classes.center_icon}>
+
+            <AboutCard title={'experience'} data={'1 year 6 months experience'}>
               <FaAward className={classes.about_icon} />
-              </div>
-           
-              <h5> experience</h5>
-              <small> 1 year 6 months experience</small>
-            
-            </article>
+            </AboutCard>
 
-            <article className={classes.about_card}>
-            <div className={classes.center_icon}>
+            <AboutCard title={'Clients'} data={'4 clients'}>
               <FiUser className={classes.about_icon} />
-              </div>
-              <h5> Clients</h5>
-              <small> 4 clients</small>
-            </article>
+            </AboutCard>
 
-            <article className={classes.about_card}>
-            <div className={classes.center_icon}>
+            <AboutCard title={'Projects'} data={'5 completed projects'}>
               <VscFolderLibrary className={classes.about_icon} />
-            </div>
-              <h5> Projects</h5>
-              <small> 5 completed projects</small>
-            </article>
-            
-           </div>
+            </AboutCard>
+
+
+          </div>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text

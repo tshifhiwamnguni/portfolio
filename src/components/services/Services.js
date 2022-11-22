@@ -3,7 +3,7 @@ import classes from "./Services.module.css";
 import webDev from "../../data/services/webDevList.json";
 import creator from "../../data/services/contentCreatorList.json";
 import uxUi from "../../data/services/uiuxList.json";
-import ServiceCard from "../sub_componants/serviceCard/ServiceCard";
+import ServiceCard from "../sub_componants/service_card/ServiceCard";
 
 
 function Services() {
