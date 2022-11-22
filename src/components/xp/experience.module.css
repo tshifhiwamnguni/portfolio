@@ -27,15 +27,7 @@
   color: var(--color-primary);
 }
 
-.experience_content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
-}
-.experience_details {
-  display: flex;
-  gap: 1rem;
-}
+
 
 .experience_icon {
   margin-top: 6px;

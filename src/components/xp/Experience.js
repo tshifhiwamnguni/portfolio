@@ -14,7 +14,7 @@ function Experience() {
       <h5>what skills do i have?</h5>
       <h2>My experience</h2>
       <div className={`${classes.container} ${classes.experience_container}`}>
-        <div className={classes.frontend}>
+        <div >
           <h3> frontend development</h3>
           <div className={classes.experience_content}>
             {frontendData.map((skill) => (
@@ -27,7 +27,7 @@ function Experience() {
           </div>
         </div>
 
-        <div className={classes.backend}>
+        <div >
           <h3> backend development</h3>
           <div className={classes.experience_content}>
             {backendData.map((skill) => (
@@ -38,7 +38,7 @@ function Experience() {
           </div>
         </div>
 
-        <div className={classes.frontend}>
+        <div >
           <h3> Database </h3>
           <div className={classes.experience_content}>
             {databaseData.map((skill) => (
