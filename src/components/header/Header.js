@@ -31,7 +31,7 @@ function Buttons(){
     return(
         <div className={classes.cta}>
          <a href={cv} download="Tshifhiwa Mnguni CV" className='btnx'> download</a>
-         <a href="#contacts" className='btnx btn_primaryx'> contact me</a>
+         <a href="#contact"  className='btnx btn_primaryx'> contact me</a>
         </div>
     )
 }

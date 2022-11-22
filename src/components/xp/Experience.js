@@ -4,6 +4,7 @@ import { BsPatchCheckFill } from "react-icons/bs";
 import frontendSkills from "../../data/xpData/frontend.json";
 import backendSKills from "../../data/xpData/backend.json";
 import databaseSkills from "../../data/xpData/database.json";
+import XpCard from "../sub_componants/xp_card/XpCard";
 function Experience() {
   let frontendData = frontendSkills;
   let backendData = backendSKills;
@@ -17,13 +18,12 @@ function Experience() {
           <h3> frontend development</h3>
           <div className={classes.experience_content}>
             {frontendData.map((skill) => (
-              <article>
-                <div className={`${classes.grow} ${classes.experience_details}`}>
-                  <BsPatchCheckFill className={classes.experience_icon} />
-                  <h4>{skill.skill}</h4>
-                </div>
-              </article>
-            ))}
+               <XpCard skill={skill}>
+               <BsPatchCheckFill className={classes.experience_icon} />
+             </XpCard>
+           ))}
+
+             
           </div>
         </div>
 
@@ -31,12 +31,9 @@ function Experience() {
           <h3> backend development</h3>
           <div className={classes.experience_content}>
             {backendData.map((skill) => (
-              <article>
-                <div className={classes.experience_details}>
-                  <BsPatchCheckFill className={classes.experience_icon} />
-                  <h4>{skill.skill}</h4>
-                </div>
-              </article>
+              <XpCard skill={skill}>
+                <BsPatchCheckFill className={classes.experience_icon} />
+              </XpCard>
             ))}
           </div>
         </div>
@@ -45,12 +42,9 @@ function Experience() {
           <h3> Database </h3>
           <div className={classes.experience_content}>
             {databaseData.map((skill) => (
-              <article>
-                <div className={classes.experience_details}>
-                  <BsPatchCheckFill className={classes.experience_icon} />
-                  <h4>{skill.skill}</h4>
-                </div>
-              </article>
+              <XpCard skill={skill}>
+              <BsPatchCheckFill className={classes.experience_icon} />
+            </XpCard>
             ))}
           </div>
         </div>
