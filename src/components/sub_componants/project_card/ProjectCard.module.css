@@ -1,16 +1,18 @@
 
   
   .portfolio_item {
+    color: whitesmoke;
     background: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transit);
+    box-shadow: 1rem 1rem 1rem #434343;
   }
   
   .portfolio_item:hover {
     border-color: var(--color-primary-variant);
-    background: transparent;
+    /* background: transparent; */
   }
   
   .portfolio_item_image {

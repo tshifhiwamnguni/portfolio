@@ -1,11 +1,6 @@
-.services_container{
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
- }
 
 .about_container {
-  display: grid;
-  grid-template-columns: 30% 50%;
+
   gap: 5%;
   margin-left: 2rem;
 }
@@ -36,6 +31,8 @@
 }
 
 .about_card{
+
+
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -53,7 +50,7 @@ text-align: center;
 
 .about_icon{
     color: var(--color-primary);
-    font-size: 2rem;
+    font-size: 8rem;
     margin-bottom: 1rem;
     
 }

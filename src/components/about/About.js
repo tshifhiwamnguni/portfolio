@@ -9,14 +9,9 @@ import AboutCard from "../sub_componants/about_card/AboutCard";
 function About() {
   return (
     <section id="about">
-      <h5> get to know </h5>
-      <h2> about me</h2>
+   
+      <h2 className="headings"> About me</h2>
       <div className={`${classes.container} ${classes.about_container}`}>
-        <div className={classes.about_me}>
-          <div className={classes.about_me_image}>
-            <img src={ME} alt="About" />
-          </div>
-        </div>
 
         <div className={classes.about_content}>
           <div className={classes.about_cards} >

@@ -8,8 +8,8 @@ function Contacts() {
 
   return (
     <section id='contact'>
-      <h5>Get in touch</h5>
-      <h2>Contact me</h2>
+   
+      <h2 className="headings">Get in touch</h2>
       <div className={`${classes.container} ${classes.contact_container}`}>
 
         <div className={classes.contact_options}>

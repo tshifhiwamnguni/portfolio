@@ -1,62 +1,47 @@
 header{
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
+    padding-top: 5rem;
+}
+ p{
+   font-size: 30px;
 }
 
 
 .header__container{
     text-align: center;
     height: 100%;
-    position: relative;
+   
 }
 
 .cta{
-    margin-top: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
     display: flex;
     gap: 1rem;
     justify-content: center;
 }
-
-
-.header_socials{
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-    position: absolute;
-    left: 1rem;
-    bottom: 3rem;
+.intro{
+    color: black;
 }
 
-.header_socials::after{
-    content: "";
-    width: 4px;
-    height: 2rem;
-    background: var(--color-primary);
 
+h2{
+  font-size: 20px;
 }
-
 .me{
-    background:  linear-gradient( var(--color-primary),transparent);
-    width: 22rem;
+    background: var(--color-primary);
+    width: 30rem;
     height: 30rem;
-    position: absolute; 
-    justify-content: center;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1rem 2rem;
+    border-radius: 3rem;
+}
+.pic{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 3rem; 
+    transform: rotate(10deg);
 }
 
 
-.scroll_down{
-    position: absolute;
-    right: 0;
-    bottom:5rem;
-    transform: rotate(90deg);
-    font-weight: 200;
-}
+
 
 @media screen and (max-width:1024px) {
     header{
@@ -68,9 +53,22 @@ header{
 
   @media screen and (max-width:600px) {
     header{
-        height: 100vh;
+       
     }
     .header_socials, .scroll_down{
         display: none;
     }
+  }
+
+  .about_container {
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 30%;
+ 
+   
+  }
+  .container{
+    width: var(--wd-lg);
+    margin: 0 auto;
+  
   }

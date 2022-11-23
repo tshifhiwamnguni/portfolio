@@ -14,8 +14,8 @@ function Services() {
 
   return (
     <section id="service">
-      <h5>what i offer</h5>
-      <h2>Services</h2>
+   
+      <h2 className="headings">what i offer</h2>
       <div className={`${classes.container} ${classes.services_container}`}>
 
         <ServiceCard service={'web development'} Data={webDevData} />

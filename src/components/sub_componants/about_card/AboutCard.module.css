@@ -1,28 +1,5 @@
-.services_container{
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
- }
 
-.about_container {
-  display: grid;
-  grid-template-columns: 30% 50%;
-  gap: 5%;
-  margin-left: 2rem;
-}
 
-.about_me {
-  width: 100%;
-  aspect-ratio: 1/1;
-  border-radius: 2rem;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary),
-    transparent
-  );
-  display: grid;
-  place-items: center;
-}
 
 .about_me_image {
   border-radius: 2rem;
@@ -36,24 +13,28 @@
 }
 
 .about_card{
+  height: 14rem;
+  box-shadow: 1rem 1rem 1rem #434343;
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
    transition: var(--transit);
 text-align: center;
+margin: 1rem;
+margin-bottom: 2rem;
 
 }
 .about_card:hover{
-    background: transparent;
-    border-color: var(--color-primary);
+  
+ 
     cursor: default;
 
 }
 
 .about_icon{
     color: var(--color-primary);
-    font-size: 2rem;
+    font-size: 10rem;
     margin-bottom: 1rem;
     
 }
@@ -63,7 +44,7 @@ text-align: center;
 }
 .about_card small{
     font-size: 0.9rem;
-    color: var(--color-light);
+    color: white;
 
 }
 .about_card p{
@@ -111,4 +92,14 @@ text-align: center;
   .container{
     width: var(--wd-lg);
     margin: 0 auto;
+  }
+
+  .grow 
+  {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .grow:hover {
+    transform: scale(1.06);
+
   }

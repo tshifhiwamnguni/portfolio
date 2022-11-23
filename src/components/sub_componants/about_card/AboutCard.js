@@ -3,7 +3,7 @@ import classes from './AboutCard.module.css'
 
 function AboutCard(props) {
     return (
-        <article className={classes.about_card}>
+        <article className={`${classes.about_card} ${classes.grow}`}>
             <div className={classes.center_icon}>
                {props.children}
             </div>
