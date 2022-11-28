@@ -11,8 +11,8 @@ import Experience from './components/xp/Experience';
 
 function App() {
   return (
-    <div  className='bod2'>
-    <div  className='bod'>
+
+    <div>
       <Header/>
       <Nav/>
       <About/>
@@ -21,10 +21,8 @@ function App() {
       <Portfolio/>
       <Contacts/>
       <Footer/>
+    </div>
 
-    
-    </div>
-    </div>
   );
 }
 

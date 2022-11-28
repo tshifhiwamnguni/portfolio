@@ -36,12 +36,4 @@
     transform: rotate(360deg);
   }
 }
-.bod{
-  border: 10px solid grey;
-  border-radius: 5rem;
-  background-color: white;
-}
-.bod2{
-  border: 10px solid grey;
-  background-color: grey;
-}
+
