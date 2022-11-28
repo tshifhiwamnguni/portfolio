@@ -1,6 +1,6 @@
 import React,{useRef} from 'react'
 import emailjs from '@emailjs/browser';
-
+import classes from './ContactForm.module.css'
 function ContactForm() {
     const form = useRef();
     const sendEmail = (e) => {
@@ -18,7 +18,7 @@ function ContactForm() {
     <input type="text" name="name" placeholder='your name' required />
     <input type="email" name="email" placeholder='your email' required />
     <textarea name='message' id='' cols='30' rows='7' placeholder='your message'></textarea>
-    <button type='submit' value={'send'} className='btnx btn-primaryx'> send message</button>
+    <button type='submit' value={'send'} className={classes.bt}> send message</button>
   </form>
   )
 }

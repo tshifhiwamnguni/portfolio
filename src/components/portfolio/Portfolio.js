@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <section id="portfolio">
       
-      <h2 className="headings">Portfolio</h2>
+      <h2 className="headings"> <span className="names">Portfolio</span></h2>
       <div className={`${classes.container} ${classes.portfolio_container}`}>
         {projectData.map((project) => (
          <ProjectCard project={project}/>

@@ -12,7 +12,7 @@ function Experience() {
   return (
     <section id="experience">
       
-      <h2 className="headings">My experience</h2>
+      <h2 className="headings"><span className="names">My experience</span></h2>
       <div className={`${classes.container} ${classes.experience_container} `}>
         <div className={classes.grow} >
           <h3> frontend development</h3>

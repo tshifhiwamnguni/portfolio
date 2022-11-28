@@ -2,7 +2,7 @@ import React from "react";
 import cv from "./../../assets/cv.pdf";
 import classes from "./Header.module.css";
 
-import MyImage from "../../assets/me-about.jpg";
+import MyImage from "../../assets/1.png";
 
 function Header() {
   return (
@@ -19,7 +19,7 @@ function Header() {
         <div>
           <div className={classes.intro}>
             <h2>Hello I'm</h2>
-            <h1>Tshifhiwa Brandon Mnguni</h1>
+            <h1 className={classes.names}>Tshifhiwa Brandon Mnguni</h1>
 
             <h2>Fullstack developer</h2>
             <br />
@@ -39,7 +39,7 @@ function Buttons() {
     <div className={classes.cta}>
       <a href={cv} download="Tshifhiwa Mnguni CV" className="btnx btn_primaryx">
         {" "}
-        download
+        download CV
       </a>
       <a href="#contact" className="btnx btn_primaryx">
         {" "}

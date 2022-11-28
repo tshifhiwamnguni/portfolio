@@ -40,7 +40,10 @@ h2{
     transform: rotate(10deg);
 }
 
-
+.names{
+  border-bottom: 10px solid var(--color-primary);
+  font-size: 70px;
+}
 
 
 @media screen and (max-width:1024px) {

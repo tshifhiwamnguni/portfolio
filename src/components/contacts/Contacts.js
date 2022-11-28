@@ -9,7 +9,7 @@ function Contacts() {
   return (
     <section id='contact'>
    
-      <h2 className="headings">Get in touch</h2>
+      <h2 className="headings"> <span className="names">Get in touch</span></h2>
       <div className={`${classes.container} ${classes.contact_container}`}>
 
         <div className={classes.contact_options}>
@@ -20,7 +20,7 @@ function Contacts() {
 
 
           <ContactCard title={'Whatsapp and call'} data={'0786274306'} extra={"https://api.whatsapp.com/send?phone=0786274306"}>
-            <div>ue</div>
+         
           </ContactCard>
 
         </div>

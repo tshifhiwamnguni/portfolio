@@ -38,3 +38,9 @@
     transform: scale(1.06);
   /* background-color: #151534; */
   }
+
+  .imgs{
+    background-color: rgb(158, 156, 156);
+    width: 400px;
+    height: 400px;
+  }
